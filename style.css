@@ -1,0 +1,100 @@
+body{
+    background-color: black;
+}
+.container{
+    display: flex;
+    flex-direction: column ;
+    justify-content: center  ;
+    background-color: rgb(33, 33, 33);   
+    height: 720px;
+    width: 1280px;
+    margin:200px auto;
+    border-radius: 12px;
+ 
+    }
+
+.logo{
+    
+    margin:50px auto;
+    
+}
+.quem{
+   
+    margin:auto;
+    margin-bottom: 50px;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+    
+.card{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+
+.nome:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+        }
+
+.image{
+    -webkit-filter:brightness(70%);
+    -webkit-filter:contrast(70%)
+        }
+.image:hover{
+    -webkit-filter:brightness(100%);
+    transition: 2s;
+    -webkit-filter:contrast(100%)
+    transition: 2s;
+        }
+
+.imagem{
+       -webkit-filter:brightness(50%);
+       -webkit-filter:contrast(40%)
+        }
+.imagem:hover{
+    -webkit-filter:brightness(500%);
+    transition: 2s;
+    -webkit-filter:contrast(500%)
+    transition: 2s;
+      }
+
+
+.usuario{
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-around  ;
+    margin-bottom: 100px;
+    color: aliceblue;
+    width: 800px;
+    margin:auto
+    
+}
+
+.image{
+    border-radius: 15px;
+}
+.imagem{
+    border-radius: 15px;
+}
+
+.perfil{
+    border: solid white;
+    border-radius: 8px;
+    text-align: center;
+    color: white;
+    height: 50px;
+    width: 206px;
+    margin: auto;
+    margin-bottom: 100px;
+    font-family: Arial, Helvetica, sans-serif ;
+
+}
+.perfil:hover {
+    background: white;
+    color: black;
+  }
+
